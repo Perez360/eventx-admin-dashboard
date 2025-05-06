@@ -1,1 +1,1 @@
-# eventx-web
+# eventx-admin-dashboard
