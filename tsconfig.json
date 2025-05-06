@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@core/*": ["core/*"],
+      "@enums/*": ["enums/*"],
+      "@models/*": ["models/*"],
+      "@presentation/*" :["presentation/*"],
+      "@services/*": ["services/*"],
+      "@routes/*":["routes/*"]
+    },
     "target": "es5",
     "lib": [
       "dom",
@@ -9,11 +18,12 @@
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
